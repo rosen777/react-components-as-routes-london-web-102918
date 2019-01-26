@@ -70,6 +70,7 @@ ReactDOM.render((
       <Route path="/" component={Home} />
       <Route exact path="/about" render={About} />
       <Route exact path="/login" render={Login} />
+      
     </React.Fragment>
   </Router>),
     document.getElementById('root')
